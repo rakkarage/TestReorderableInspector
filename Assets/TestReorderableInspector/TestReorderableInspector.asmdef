@@ -1,0 +1,6 @@
+{
+	"name": "TestReorderableInspector",
+	"references": [
+		"ReorderableInspector"
+	]
+}
