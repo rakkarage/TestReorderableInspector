@@ -12,10 +12,11 @@ namespace UnityEditor
 		// [Reorderable]
 		public TileBase[] randomTiles;
 	}
-	// #if UNITY_EDITOR
-	// 	[CustomEditor(typeof(RandomBrush))]
-	// 	public class RandomBrushEditor : GridBrushEditor
-	// 	{
-	// 	}
-	// #endif
+	// TODO: this not work???
+#if UNITY_EDITOR
+	[CustomEditor(typeof(RandomBrush))]
+	public class RandomBrushEditor : GridBrushEditor
+	{
+	}
+#endif
 }
