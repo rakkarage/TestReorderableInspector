@@ -1,16 +1,16 @@
-using System;
+﻿using System;
 using SubjectNerd.Utilities;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-namespace UnityEditor
+// namespace UnityEditor
 {
 	[CreateAssetMenu]
-	[CustomGridBrush(false, true, false, "Random Brush")]
+	// [CustomGridBrush(false, true, false, "Random Brush")]
 	[Serializable]
-	public class RandomBrush : GridBrush
+	public class TestB : ScriptableObject
 	{
-		// [Reorderable]
-		public TileBase[] randomTiles;
+		
+		public int[] test;
 	}
 	// #if UNITY_EDITOR
 	// 	[CustomEditor(typeof(RandomBrush))]
