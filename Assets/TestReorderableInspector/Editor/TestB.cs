@@ -2,20 +2,17 @@
 using SubjectNerd.Utilities;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-// namespace UnityEditor
+[CreateAssetMenu]
+// [CustomGridBrush(false, true, false, "Random Brush")]
+[Serializable]
+public class TestB : ScriptableObject
 {
-	[CreateAssetMenu]
-	// [CustomGridBrush(false, true, false, "Random Brush")]
-	[Serializable]
-	public class TestB : ScriptableObject
-	{
-		
-		public int[] test;
-	}
-	// #if UNITY_EDITOR
-	// 	[CustomEditor(typeof(RandomBrush))]
-	// 	public class RandomBrushEditor : GridBrushEditor
-	// 	{
-	// 	}
-	// #endif
+
+	public int[] test;
 }
+// #if UNITY_EDITOR
+// 	[CustomEditor(typeof(RandomBrush))]
+// 	public class RandomBrushEditor : GridBrushEditor
+// 	{
+// 	}
+// #endif
