@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Name: New Test A
   m_EditorClassIdentifier: 
   test: 00000000000000000000000000000000
+  orientation: -1

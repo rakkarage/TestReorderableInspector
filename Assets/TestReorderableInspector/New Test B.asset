@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b055d7f6f3e78b74790286cef645152d, type: 3}
   m_Name: New Test B
   m_EditorClassIdentifier: 
-  test: 
-  orientation: 0
+  test: 000000000000000000000000
+  orientation: 2
