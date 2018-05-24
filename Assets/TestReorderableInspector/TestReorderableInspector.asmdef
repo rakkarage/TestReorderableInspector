@@ -1,7 +1,10 @@
 {
-	"name": "TestReorderableInspector",
-	"references": [
-		"ReorderableInspector",
-		"InspectorFoldoutGroup"
-	]
+    "name": "TestReorderableInspector",
+    "references": [
+        "ReorderableInspector"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
 }
