@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Homebrew;
+using System;
 using UnityEngine;
 namespace UnityEngine.Tilemaps
 {
@@ -6,8 +7,12 @@ namespace UnityEngine.Tilemaps
 	[Serializable]
 	public class TestB : ScriptableObject
 	{
+		[Foldout("test0")]
+		public int test0;
+
 		[Foldout("A")]
 		public int[] test;
+		[Foldout("AA")]
 		public TileOrientation orientation;
 	}
 }

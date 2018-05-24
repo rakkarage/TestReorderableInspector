@@ -1,6 +1,7 @@
 {
 	"name": "TestReorderableInspector",
 	"references": [
-		"ReorderableInspector"
+		"ReorderableInspector",
+		"InspectorFoldoutGroup"
 	]
 }
