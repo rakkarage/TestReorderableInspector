@@ -12,11 +12,4 @@ namespace UnityEditor
 		public TileBase[] randomTiles;
 		public TileOrientation orientation;
 	}
-	// TODO: this not work???
-// #if UNITY_EDITOR
-// 	[CustomEditor(typeof(RandomBrush))]
-// 	public class RandomBrushEditor : GridBrushEditor
-// 	{
-// 	}
-// #endif
 }
