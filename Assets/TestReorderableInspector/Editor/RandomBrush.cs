@@ -13,10 +13,10 @@ namespace UnityEditor
 		public TileBase[] randomTiles;
 	}
 	// TODO: this not work???
-#if UNITY_EDITOR
-	[CustomEditor(typeof(RandomBrush))]
-	public class RandomBrushEditor : GridBrushEditor
-	{
-	}
-#endif
+// #if UNITY_EDITOR
+// 	[CustomEditor(typeof(RandomBrush))]
+// 	public class RandomBrushEditor : GridBrushEditor
+// 	{
+// 	}
+// #endif
 }

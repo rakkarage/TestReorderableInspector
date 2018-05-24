@@ -6,6 +6,7 @@ namespace UnityEngine.Tilemaps
 	[Serializable]
 	public class TestB : ScriptableObject
 	{
+		[Foldout("A")]
 		public int[] test;
 		public TileOrientation orientation;
 	}
