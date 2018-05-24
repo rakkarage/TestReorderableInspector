@@ -11,6 +11,7 @@ namespace UnityEditor
 	{
 		// [Reorderable]
 		public TileBase[] randomTiles;
+		public TileOrientation orientation;
 	}
 	// TODO: this not work???
 // #if UNITY_EDITOR

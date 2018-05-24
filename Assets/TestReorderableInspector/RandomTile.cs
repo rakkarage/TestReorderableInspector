@@ -6,5 +6,6 @@ namespace UnityEngine.Tilemaps
 	public class RandomTile : TileBase
 	{
 		public TileBase[] randomTiles;
+		public TileOrientation orientation;
 	}
 }
