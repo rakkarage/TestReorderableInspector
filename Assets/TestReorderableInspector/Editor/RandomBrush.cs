@@ -1,4 +1,5 @@
 using System;
+using SubjectNerd.Utilities;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 namespace UnityEditor
@@ -8,7 +9,7 @@ namespace UnityEditor
 	[Serializable]
 	public class RandomBrush : GridBrush
 	{
-		// [Reorderable]
+		[Reorderable]
 		public TileBase[] randomTiles;
 		public TileOrientation orientation;
 	}
