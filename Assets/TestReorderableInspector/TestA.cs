@@ -1,12 +1,10 @@
 ﻿using System;
 using UnityEngine;
-namespace UnityEngine.Tilemaps
+using UnityEngine.Tilemaps;
+[CreateAssetMenu]
+[Serializable]
+public class TestA : ScriptableObject
 {
-	[CreateAssetMenu]
-	[Serializable]
-	public class TestA : ScriptableObject
-	{
-		public int[] test;
-		public TileOrientation orientation;
-	}
+	public int[] Test;
+	public TileOrientation Orientation;
 }
