@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using SubjectNerd.Utilities;
@@ -16,7 +17,7 @@ public class TestB : ScriptableObject
 }
 public class ReorderableArray<T>
 {
-	public T[] array;
+	public List<T> array;
 }
 [Serializable]
 public class ReorderableArrayInt : ReorderableArray<int>
@@ -52,6 +53,28 @@ public class IntArrayDrawer : PropertyDrawer
 		// // var ra = new ReorderableArrayInspector();
 		// // ra.DrawPropertiesAll();//.DrawDefaultInspector();
 		EditorGUI.HelpBox(position, "FUCK OFF", MessageType.Info);
+
+		// var test = new ReorderableArrayInspector();
+		// if (test != null)
+		// 	Debug.Log(test);
+		// test.DrawDefaultInspector();
+
+		// Debug.Log(property);
+		// Debug.Log(property.serializedObject);
+		// var list = property.FindPropertyRelative("array");
+		// Debug.Log(list);
+		// var r = new ReorderableList(property.serializedObject, list, true, true, true, true);
+		// var x = ReorderableList.defaultBehaviours.draggingHandle;
+		// ;
+		// r.drawElementCallback =
+		// 	(Rect rect, int index, bool isActive, bool isFocused) =>
+		// 	{
+
+		// 		EditorGUI.PropertyField(rect, list.GetArrayElementAtIndex(index));
+		// 	};
+		// r.DoList(position);
+
+
 
 		// if (EditorGUI.EndChangeCheck())
 		// {
