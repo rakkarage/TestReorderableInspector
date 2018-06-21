@@ -8,3 +8,4 @@ Doesn't work with GridBrushBase!? Or any editor?
 
 - try to make a CustomPropertyDrawer?
   - try make custom serializable array class
+- MAKE A BUG FOR UNITY!!!
