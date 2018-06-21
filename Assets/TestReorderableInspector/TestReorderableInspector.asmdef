@@ -2,5 +2,5 @@
 	"name": "TestReorderableInspector",
 	"references": [
 		"ReorderableInspector"
-	],
+	]
 }
