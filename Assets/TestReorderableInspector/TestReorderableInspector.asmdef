@@ -1,10 +1,6 @@
 {
-    "name": "TestReorderableInspector",
-    "references": [
-        "ReorderableInspector"
-    ],
-    "optionalUnityReferences": [],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false
+	"name": "TestReorderableInspector",
+	"references": [
+		"ReorderableInspector"
+	],
 }
