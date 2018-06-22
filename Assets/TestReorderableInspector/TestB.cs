@@ -39,10 +39,10 @@ public class ReorderableArrayInt : ReorderableArray<int>
 [CustomPropertyDrawer(typeof(ReorderableArrayInt))]
 public class IntArrayDrawer : PropertyDrawer
 {
-	private bool _initialized = false;
+	// private bool _initialized = false;
 	private void Initialize(SerializedProperty property)
 	{
-		_initialized = true;
+		// _initialized = true;
 	}
 	public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
 	{
